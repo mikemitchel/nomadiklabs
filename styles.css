@@ -1,0 +1,21 @@
+* {
+  background-color: #001724;
+  height: 100%;
+
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .imgwrap {
+    width: 50%; /*or whatever you choose*/
+    margin: auto;
+  }
+  .imgwrap img {
+    display: block;
+    width: 100%;
+    max-width: 514px; /*actual image width*/
+    height: auto; /* maintain aspect ratio*/
+    margin: auto; /*optional centering of image*/
+  }
+}
