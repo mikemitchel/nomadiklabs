@@ -1,20 +1,53 @@
 * {
   background-color: #fff4de;
-  height: 100%;
+
+  .name {
+    margin: 10px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 6vmin;
+  }
+
+  .tag {
+    margin: 10px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 3vmin;
+  }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+  }
+
+  p.copyright {
+    margin: 10px;
+    font-size: 3vmin;
+  }
 
   .box {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
   }
+
   .imgwrap {
     width: 50%; /*or whatever you choose*/
     margin: auto;
   }
+
   .imgwrap img {
     display: block;
     width: 100%;
-    max-width: 514px; /*actual image width*/
+    max-width: 450px; /*actual image width*/
     height: auto; /* maintain aspect ratio*/
     margin: auto; /*optional centering of image*/
   }
