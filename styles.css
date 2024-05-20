@@ -1,6 +1,4 @@
 * {
-  background-color: #fff4de;
-
   .name {
     margin: 10px;
     font-family: Tahoma, Arial, Helvetica, sans-serif;
@@ -15,15 +13,22 @@
     margin: 10px;
     font-family: Tahoma, Arial, Helvetica, sans-serif;
     font-size: 3vmin;
-    color: #172830;
+    color: #fff4de;
   }
 
   .copyright {
     font-family: Tahoma, Arial, Helvetica, sans-serif;
-    color: #172830;
+    color: #fff4de;
   }
 
   body {
+    background-image: url(assets/sunset.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #fff4de;
+
     min-height: 100vh;
     display: flex;
     flex-direction: column;
