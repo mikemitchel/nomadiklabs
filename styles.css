@@ -1,26 +1,4 @@
 * {
-  .name {
-    margin: 10px;
-    font-family: Tahoma, Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 6vmin;
-    color: #172830;
-  }
-
-  .tag {
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-    font-family: Tahoma, Arial, Helvetica, sans-serif;
-    font-size: 3vmin;
-    color: #fff4de;
-  }
-
-  .copyright {
-    font-family: Tahoma, Arial, Helvetica, sans-serif;
-    color: #fff4de;
-  }
-
   body {
     background-image: url(assets/sunset.jpeg);
     background-position: center center;
@@ -35,15 +13,38 @@
     overflow: hidden;
   }
 
+  .name {
+    margin: 10px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 6vmin;
+    color: #172830;
+  }
+
+  .tag {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 3vmin;
+    color: #fff4de;
+  }
+
+  .copyright {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    color: #fff4de;
+  }
+
+  p.copyright {
+    margin-bottom: 15px;
+    font-size: 3vmin;
+  }
+
   footer {
     display: flex;
     justify-content: center;
     margin-top: auto;
-  }
-
-  p.copyright {
-    margin: 10px;
-    font-size: 3vmin;
   }
 
   header {
