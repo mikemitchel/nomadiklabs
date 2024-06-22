@@ -13,6 +13,11 @@
     overflow: hidden;
   }
 
+  .logos {
+    background-image: initial;
+    background-color: #ffffcc;
+  }
+
   .name {
     margin: 10px;
     font-family: Tahoma, Arial, Helvetica, sans-serif;
@@ -62,6 +67,12 @@
     display: flex;
     align-items: center;
     flex-direction: row;
+  }
+
+  .logo-panel {
+    width: 100%;
+    max-width: 90vw; /*actual image width*/
+    height: auto; /* maintain aspect ratio*/
   }
 
   img {
