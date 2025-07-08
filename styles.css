@@ -76,8 +76,7 @@
   }
 
   img {
-    width: 100%;
-    max-width: 100px; /*actual image width*/
+    max-width: 60px; /*actual image width*/
     height: auto; /* maintain aspect ratio*/
   }
 }
