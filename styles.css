@@ -78,5 +78,7 @@
   img {
     max-width: 60px; /*actual image width*/
     height: auto; /* maintain aspect ratio*/
+    fill: #6bb5d7;
+    stroke: currentColor;
   }
 }
